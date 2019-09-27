@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 # config
 default_semvar_bump=${DEFAULT_BUMP:-minor}
 
